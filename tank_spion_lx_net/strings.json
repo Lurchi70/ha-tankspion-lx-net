@@ -1,0 +1,35 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connectiondata of Tank-Spion LX-NET and Options",
+        "description": "Provide the credentials (IP-Adresse oder FQDN) of Tank-Spion LX-NET and the options of your device.",
+        "data": {
+          "host": "[%key:common::config_flow::data::host%]",
+          "username": "[%key:common::config_flow::data::username%]",
+          "password": "[%key:common::config_flow::data::password%]",
+          "update_interval": "Updatetime in seconds to read data from Device"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "[%key:common::config_flow::error::cannot_connect%]",
+      "invalid_auth": "[%key:common::config_flow::error::invalid_auth%]",
+      "unknown": "[%key:common::config_flow::error::unknown%]"
+    },
+    "abort": {
+      "already_configured": "[%key:common::config_flow::abort::already_configured_device%]"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "System Configuration",
+        "data": {
+          "update_interval": "Updatetime: Time in seconds to read data from your device"
+        },
+        "description": ""
+      }
+    }
+  }
+}

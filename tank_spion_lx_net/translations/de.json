@@ -1,0 +1,35 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Das Gerät ist bereits konfiguriert"
+        },
+        "error": {
+            "cannot_connect": "Verbindungsfehler",
+            "invalid_auth": "Ungültige Zugangsdaten",
+            "unknown": "Unerwarteter Fehler"
+        },
+        "step": {
+            "user": {
+                "title": "Verbindungsdaten TankSpion LX-Net und Optionen",
+                "description": "Geben Sie hier die Zugangsdaten (IP-Adresse oder FQDN) des TankSpion LX-Net.",
+                "data": {
+                    "host": "TankSpion LX-Net Netzwerkadresse",
+                    "password": "TankSpion LX-Net Kennwort",
+                    "update_interval": "Zeitintervall in Sekunden, um den TankSpion LX-Net abzufragen",
+                    "username": "TankSpion LX-Net Benutzername"
+                }
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "update_time": "Zeitintervall in Sekunden, um den TankSpion LX-Net abzufragen"
+                },
+                "description": "",
+                "title": "System Konfiguration"
+            }
+        }
+    }
+}

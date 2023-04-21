@@ -1,0 +1,35 @@
+{
+  "config": {
+      "abort": {
+          "already_configured": "Device is already configured"
+      },
+      "error": {
+          "cannot_connect": "Failed to connect",
+          "invalid_auth": "Invalid authentication",
+          "unknown": "Unexpected error"
+      },
+      "step": {
+          "user": {
+              "data": {
+                  "host": "Host",
+                  "password": "Password",
+                  "update_interval": "Updatetime in seconds to read data from TankSpion LX-Net",
+                  "username": "Username"
+              },
+              "description": "Provide the credentials (IP-Adresse oder FQDN) of TankSpion LX-Net and the options of your device.",
+              "title": "Connectiondata of TankSpion LX-Net and Options"
+          }
+      }
+  },
+  "options": {
+      "step": {
+          "init": {
+              "data": {
+                  "update_interval": "Updatetime: Time in seconds to read data from TankSpion LX-Net"
+              },
+              "description": "",
+              "title": "System Configuration"
+          }
+      }
+  }
+}
